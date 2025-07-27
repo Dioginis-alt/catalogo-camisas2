@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sertanejinhos Baby & Esportes</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin:0; padding:0; }
+    header { background: #28a745; color: white; padding: 20px; text-align: center; }
+    .catalogo { display: grid; grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); gap: 15px; padding: 20px;}
+    .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between; }
+    .card img { width:100%; height: 250px; object-fit: contain; background: #fff;}
+    .card-body { padding:15px; flex-grow:1;}
+    .card-body h3 { font-size: 1.1em; margin:0 0 10px;}
+    .card-body p { margin:5px 0; color: #333;}
+    .btn { text-align: center; background: #25D366; color: white; padding: 10px; text-decoration: none; font-weight: bold; display: block; margin: 0 15px 15px; border-radius: 5px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sertanejinhos Baby & Esportes</h1>
+    <p>Escolha sua camisa e peça via WhatsApp</p>
+  </header>
+  <div class="catalogo">
+    <!-- repita este card para cada camisa -->
+    <div class="card">
+      <img src="https://loja.flamengo.com.br/ccstore/v1/images/?source=/file/v2124691153514144735/products/MantoI24_Frente.jpg" alt="Flamengo">
+      <div class="card-body">
+        <h3>Flamengo - Titular 2024/25</h3>
+        <p><strong>Preço:</strong> R$139,90</p>
+        <p><strong>Tamanhos:</strong> P, M, G, GG</p>
+      </div>
+      <a class="btn" href="https://wa.me/5587988541343?text=Olá,%20tenho%20interesse%20na%20camisa%20do%20Flamengo">Comprar via WhatsApp</a>
+    </div>
+    <!-- outros 9 cards aqui... -->
+  </div>
+</body>
+</html>
